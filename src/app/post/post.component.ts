@@ -44,10 +44,6 @@ export class PostComponent implements OnInit,
     // console.log(this.infoRef.nativeElement);
   }
 
-  ngDoCheck(): void {
-    console.log('ngDoCheck');
-  }
-
   ngOnDestroy(): void {
     console.log('ngOnDestroy');
   }
